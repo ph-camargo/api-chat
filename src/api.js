@@ -11,7 +11,7 @@ const router = express.Router();
 app.use('/', router.get('/sobre', (req, res, next) => {
     res.status(200).send ({
         "nome" : "CHAT",
-        "autor" : "Matheus Rossini",
+        "autor" : "Pedro Camargo",
         "versao" : "0.1.0"
     });
 }));
